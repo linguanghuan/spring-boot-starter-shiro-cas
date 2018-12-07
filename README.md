@@ -24,6 +24,8 @@
 ### 配置参考
 
  > application.yml
+ 
+``` 
 
 ################################################################################################################  
 ###Shiro 权限控制基本配置：  
@@ -96,6 +98,7 @@ shiro:
     ignore-pattern: /webjars/;/assets/;/authz/login;/logout;/callback
     ignore-url-pattern-type: org.apache.shiro.spring.boot.cas.ContainsPatternsUrlPatternMatcherStrategy
 
+```
 
 ### 参考资料
 
